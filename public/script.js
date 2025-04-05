@@ -41,6 +41,22 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Send the request
         xhr.send(JSON.stringify(formData));
+
+        // 409 errors
+        xhr.onload = function() {
+            const response = JSON.parse(xhr.responseText);
+            
+            if (xhr.status === 409) {  // Specific handling for conflict
+                showMessage(response.message, 'error');
+            } 
+            else if (xhr.status >= 200 && xhr.status < 300) {
+                showMessage(response.message, 'success');
+                form.reset();
+            }
+            else {
+                showMessage('An error occurred', 'error');
+            }
+        };
     });
     
     function showMessage(msg, type) {
