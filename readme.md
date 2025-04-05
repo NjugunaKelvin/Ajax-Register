@@ -40,15 +40,6 @@ To set up the project, follow these steps:
    localhost:3000
    ```
 
-
-### Key Features of This Code:
-
-1. **Code Blocks**: All commands are enclosed in triple backticks (```) with the appropriate language identifier (`bash` for terminal commands).
-2. **Consistent Formatting**: Each step is numbered and clearly separated for readability.
-3. **API Endpoints Table**: The table uses Markdown syntax to ensure proper alignment and clarity.
-
----
-
 ## Made with ❤️ for Learning Purposes
 
 This project was created to explore and demonstrate the following technologies:
@@ -70,7 +61,6 @@ If you have any questions, feedback, or need further clarification about this pr
 
 - **Email**: [mailto:njugunak349@gmail.com](mailto:njugunak349@gmail.com)
 - **GitHub Issues**: [Open an issue](https://github.com/NjugunaKelvin/Ajax-Register/issues) on this repository
-- **Discussions**: Start a discussion on the [GitHub Discussions page](https://github.com/NjugunaKelvin/Ajax-Register/discussions)
 
 We welcome all kinds of feedback and are happy to assist! 
 
